@@ -9,6 +9,7 @@ This project is to make three pages for a portfolio. Though all three pages have
     3. Images that are also responsive
 
 The content of the pages are:
+
     1. An About Me page
     2. The portfolio itself
     3. A contact page

@@ -27,12 +27,12 @@ Not needed for this project.
 
 ## Usage 
 
-Not needed for this project. 
+The main usage of this project is for the display of projects, a way of contact and to tell people of a little of the author.
 
 
 ## Credits
 
-Not needed for this project.
+Main Contributor: Arthur Freeman
 
 
 

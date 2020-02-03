@@ -7,6 +7,7 @@ This project is to make three pages for a portfolio. Though all three pages have
     1. A navigation bar at the top of each page.
     2. A layout that is responsive to the screen that the page is being viewed on
     3. Images that are also responsive
+    4. An optional element is a sticky footer to the bottom of the page
 
 The content of the pages are:
 

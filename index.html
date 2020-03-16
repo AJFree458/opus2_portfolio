@@ -11,35 +11,36 @@
   <title>About</title>
 </head>
 <!--Added the classes to make the background a different color and the rest are to make the sticky footer work-->
-<body class="d-flex flex-column h-100">
-  <header>
-    <nav class="navbar navbar-expand-lg border-bottom border-primary">
-      <!--changed out the link for an h1 tag-->
-        <h1 class="navbar-brand">Arthur Freeman</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <!--made sure to make the class="active" was here so that the link was highlighted, and the span tags work with it-->
-            <li class="nav-item ml-auto active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item ml-auto">
-             <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item ml-auto">
-              <a class="nav-link" href="contact.html">Contact</a>
-          </ul>
-        </div>
+<body class="d-flex flex-column h-100 backgroundTree">
+  <header class="cardBg">
+    <nav class="navbar navbar-expand-lg border-bottom">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!--made sure to make the class="active" was here so that the link was highlighted, and the span tags work with it-->
+          <li class="nav-item ml-auto active">
+            <a class="nav-link textVis" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ml-auto">
+           <a class="nav-link textVis" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link textVis" href="contact.html">Contact</a>
+        </ul>
+      </div>
     </nav>
   </header>
+
+  <!-- put name between the card and the nav-->
+  <h1>Arthur Freeman</h1>
   <!--made sure the class="flex-shrink-0" is here so that the sticky footer works-->
   <article class="flex-shrink-0">
     <!--changed the margins and padding-->
-    <div class="container border border-primary mt-5 p-3 mb-auto">
+    <div class="container border mt-5 p-3 mb-auto cardBg">
       <!--put in an h1 and changed the margin, padding, and added in a border on the bottom-->
-      <h2 class="border-bottom border-primary mb-3 pb-3 text-center font-weight-bold">About</h2>
+      <h2 class="border-bottom mb-3 pb-3 text-center font-weight-bold">About</h2>
       <div class="card mb-3">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -48,11 +49,15 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h4 class="card-title">Name</h4>
-              <p class="card-text">Arthur Freeman</p>
               <h4 class="card-title">Bio</h4>
               <p class="card-text">I was born in Charlotte, NC thirty-five years ago. I have an associates degree in architectural technology. I am working on coding right now.</p>
               <p class="card-text">I like cats, having one myself. I ride a 250cc scooter that I have had for several years. I love music, of almost all types. My current favorite is Irish and Celtic Music. I love to read. Most of what I enjoy is Sci-Fi, Fantasy, and graphic novels.</p>
+              <h4>Important Links</h4>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/arthur-j-freeman/">https://www.linkedin.com/in/arthur-j-freeman/</a></p>
+              <p>GitHub: <a href="https://github.com/AJFree458">https://github.com/AJFree458</a></p>
+              <h4>Contact Information</h4>
+              <p>Email: rthr.frmn@gmail.com</p>
+              <p>Phone: (704) 258-0102</p>
             </div>
           </div>
         </div>
@@ -62,7 +67,7 @@
   <!--The class in the footer is needed to stick said footer to the bottom of the page, with a dark background.-->
   <footer class="footer mt-auto py-3 fixed-bottom">
     <div class="container">
-      <span class="text-muted">Copyright</span>
+      <span class="textVis">Copyright</span>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

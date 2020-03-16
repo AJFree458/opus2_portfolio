@@ -11,9 +11,9 @@
     <title>Contact</title>
 </head>
 <!--Added the classes to make the background a different color and the rest are to make the sticky footer work-->
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 backgThree">
   <header>
-    <nav class="navbar navbar-expand-lg border-bottom border-primary">
+    <nav class="navbar navbar-expand-lg border-bottom">
       <!--changed out the link for an h1 tag-->
         <h1 class="navbar-brand">Arthur Freeman</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,14 +23,14 @@
           <!--put in the auto left margin to move the links to the right side of the page on the ul tag and the li tags-->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link textVis" href="index.html">About</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link textVis" href="portfolio.html">Portfolio</a>
             </li>
             <!--made sure to make the class="active" was here so that the link was highlighted, and the span tags work with it-->
             <li class="nav-item active ml-auto">
-              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+              <a class="nav-link textVis" href="contact.html">Contact <span class="sr-only">(current)</span></a>
           </ul>
         </div>
     </nav>
@@ -38,9 +38,9 @@
   <!--made sure the class="flex-shrink-0" is here so that the sticky footer works-->
   <main class="flex-shrink-0">
     <!--changed the margins and padding-->
-    <div class="container mt-5 p-3 border border-primary">
+    <div class="container mt-5 p-3 border cardBg">
       <!--put in an h1 and changed the margin, padding, and added in a border on the bottom-->
-      <h2 class="border-bottom border-primary mb-3 pb-3 text-center font-weight-bold">Contact</h2>
+      <h2 class="border-bottom mb-3 pb-3 text-center font-weight-bold">Contact</h2>
       <!--The form used needed some changes to be used for the purposes of the project. Needed a place for a name and took out a button that was not needed.-->
       <form>
         <div class="form-group">
@@ -62,7 +62,7 @@
   <!--The class in the footer is needed to stick said footer to the bottom of the page, with a dark background.-->
   <footer class="footer mt-auto py-3 fixed-bottom">
     <div class="container">
-      <span class="text-muted">Copyright</span>
+      <span class="textVis">Copyright</span>
     </div>
   </footer>
 

@@ -7,12 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Need to make sure the style link is in place-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Portfolio</title>
 </head>
 <!--Added the classes to make the background a different color and the rest are to make the sticky footer work-->
-<body class="bg-info d-flex flex-column h-100">
+<body class="d-flex flex-column h-100">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-primary">
+    <nav class="navbar navbar-expand-lg border-bottom border-primary">
       <!--changed out the link for an h1 tag-->
         <h1 class="navbar-brand">Arthur Freeman</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +38,7 @@
   <!--made sure the class="flex-shrink-0" is here so that the sticky footer works-->
   <main class="flex-shrink-0">
     <!--changed the margins and padding-->
-    <div class="container bg-light border border-primary mt-5 p-3">
+    <div class="container border border-primary mt-5 p-3">
       <!--put in an h1 and changed the margin, padding, and added in a border on the bottom-->
       <h2 class="border-bottom border-primary mb-3 pb-3 text-center font-weight-bold">Portfolio</h2>
       <!--changed the row-cols-md-2 to row-cols-md-3-->
@@ -87,7 +88,7 @@
     </div>
   </main>
   <!--The class in the footer is needed to stick said footer to the bottom of the page, with a dark background.-->
-  <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+  <footer class="footer mt-auto py-3 fixed-bottom">
     <div class="container">
       <span class="text-muted">Copyright</span>
     </div>
